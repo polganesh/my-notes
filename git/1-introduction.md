@@ -18,7 +18,7 @@
   - commit - 
     - it is get _created after each commit_
     - each commit represents _snapshot of working area_ at specific time
-- git objects are _immutable_ i.e. they can be created or distory but one **can not update them.**
+- git objects are _immutable_ i.e. one **can not update these objects.**
   
 
 ![alt text](https://github.com/polganesh/my-notes/blob/master/images/git-folder.JPG "Logo Title Text 1")
