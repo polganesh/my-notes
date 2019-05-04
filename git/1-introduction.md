@@ -15,7 +15,9 @@
 - it also contains objects folder which can contains git objects of type
   - blob - represents _either content of file or its history_
   - tree - represents _folders_
-  - commit - it is get _created after each commit_
+  - commit - 
+    - it is get _created after each commit_
+    - each commit represents _snapshot of working area_ at specific time
 - git objects are _immutable_ i.e. they can be created or distory but one **can not update them.**
   
 
