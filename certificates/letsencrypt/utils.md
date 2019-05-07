@@ -2,4 +2,4 @@
 
 https://crt.sh/?Identity=%25<domain>&iCAID=16418
 
-replace this <domain> with our domain registered with letsencrypt 
+put in your own domain name or a suffix of it right after the %25 in that URL, where the %25 represents the SQL wildcard “%”
