@@ -1,3 +1,9 @@
+# What is Git?
+git is
+- distributed
+- revision control
+- persistent map (key value pair) with values stored as SHA 1 Hash
+
 # Important storage areas
 
 ![alt text](https://github.com/polganesh/my-notes/blob/master/images/git-storage-area.jpg "Logo Title Text 1")
