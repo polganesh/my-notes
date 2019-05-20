@@ -1,4 +1,7 @@
 
+
+
+
 # list all branches
   - command - `git branch -a`
   - important notes - current branch marked with *
@@ -14,5 +17,10 @@
 
 
 
+- git init
+- git log 
+- git count objects
+- git tag -a <tag name> -m <message>
+- git cat-file -p <tag name /commit-id>  
   
   
