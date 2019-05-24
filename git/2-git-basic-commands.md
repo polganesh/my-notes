@@ -14,8 +14,13 @@
        - staged
        - not staged
        - not tracked by git
-
-
+---
+# git tag 
+  - command  
+    - `git tag  -a <tag-name> -m <commit-message> `
+    - ` git push --tag `
+  - important notes - these commands are used for adding tag with message and pushing it to remote repo
+---
 
 - git init
 - git log 
