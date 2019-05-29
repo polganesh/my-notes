@@ -26,6 +26,9 @@
 - git log 
 - git count objects
 - git tag -a <tag name> -m <message>
-- git cat-file -p <tag name /commit-id>  
+- git cat-file -p <tag name /commit-id> 
+- git config --local credential.helper "" --- it will ask for username password for git from command line
+  
+  
   
   
