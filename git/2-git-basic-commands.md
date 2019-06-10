@@ -22,6 +22,14 @@
   - important notes - these commands are used for adding tag with message and pushing it to remote repo
 ---
 
+# git history
+  - command - 
+    - `git log`
+    - `git log --pretty=oneline`
+  - important notes - Provide history of current repository
+
+
+
 - git init
 - git log 
 - git count objects
