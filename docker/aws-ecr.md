@@ -1,6 +1,6 @@
 #Get  Login details for  ECR and store details in text.text
 ```
-aws ecr get-login (dash dash)region eu-west-3 > text.txt
+aws ecr get-login --region eu-west-3 > text.txt
 ```
 
 #Login to ECR
