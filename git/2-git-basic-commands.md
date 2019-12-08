@@ -28,7 +28,13 @@
     - `git log --pretty=oneline`
   - important notes - Provide history of current repository
 
-
+# git create new branch
+- command - 
+    - `git pull`
+    - `git checkout -b [name_of_your_new_branch]`
+    -  `git push origin [name_of_your_new_branch]`
+- important notes - 
+  
 
 - git init
 - git log 
