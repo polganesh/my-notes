@@ -13,3 +13,5 @@ unzip terraform_0.12.18_linux_amd64.zip
 sudo mv terraform /usr/local/bin/
 ```
 
+
+
