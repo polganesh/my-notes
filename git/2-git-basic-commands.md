@@ -20,6 +20,18 @@
     - `git tag  -a <tag-name> -m <commit-message> `
     - ` git push --tag `
   - important notes - these commands are used for adding tag with message and pushing it to remote repo
+
+---
+# git tag delete remote tags 
+  - command  
+    - `git push --delete origin tagname ` delete remote tags as well
+    - ` git tag --delete tagname ` delete local tags as well
+
+---
+# git tag list remote tags 
+  - command  
+    - ` git tag -n9 `list tags
+ 
 ---
 
 # git history
