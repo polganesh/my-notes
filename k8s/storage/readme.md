@@ -38,17 +38,13 @@ metadata:
   name: my-pv-pod
 spec:
   volumes:
-    - name: task-pv-storage
+    - name: my-storage
       persistentVolumeClaim:
         claimName: my-pvc
   containers:
-    - name: task-pv-container
-      image: nginx
-      ports:
-        - containerPort: 80
-          name: "http-server"
+    - name: busybox
+      image: busybox
       volumeMounts:
-        - mountPath: "/usr/share/nginx/html"
-          name: task-pv-storage
-
+        - mountPath: "/mnt/storage"
+          name: my-storage
 ```
