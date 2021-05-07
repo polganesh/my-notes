@@ -31,6 +31,8 @@ spec:
       storage: 3Gi
 ```
 
+please note how `claimName` matches to `PersistentVolumeClaim name`
+
 ```
 apiVersion: v1
 kind: Pod
