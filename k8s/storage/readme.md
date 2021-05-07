@@ -40,7 +40,7 @@ spec:
   volumes:
     - name: task-pv-storage
       persistentVolumeClaim:
-        claimName: local-storage
+        claimName: my-pvc
   containers:
     - name: task-pv-container
       image: nginx
